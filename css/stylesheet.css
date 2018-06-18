@@ -1,0 +1,45 @@
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+h1{
+    font-size: 48px;
+    color: red;
+}
+
+#content{
+    width: 100%;
+    align-content: center;
+}
+
+#result{
+    width: 100%;
+    font-size: 48px;
+    font-family:'Sunflower', sans-serif;
+    text-align: center;
+}
+
+#controls{
+
+}
+
+button{
+    height: 50px;
+    width: 300px;
+    margin-top: 20px;
+    
+    font-size: 20px;
+
+    background-color: blue;
+    
+    border-style: none;
+    border-radius: 15px;
+
+
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+}
