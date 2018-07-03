@@ -59,11 +59,11 @@
             </div>
         </div>
         <div id="controls">
-            <form method="POST">
+            <form method="POST" action="php/vote.php">
                 <input type="radio" id="male" name="male" value="Male" checked> Male
                 <input type="radio" id="female" name="female" value="Female"> Female<br>
-                <button id="like">Like (+1)</button>
-                <button id="dislike">Dislike (-1)</button>
+                <button id="like" name="like">Like (+1)</button>
+                <button id="dislike" name="dislike">Dislike (-1)</button>
             </form>
         </div>
         <hr>
